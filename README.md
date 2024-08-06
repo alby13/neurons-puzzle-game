@@ -4,6 +4,10 @@
 
 <img src="game-screen.png">
 
+Play The Demo: https://singularityon.com/neurons/
+
+View The Code: https://singularityon.com/neurons/neurons-code.txt
+
 ## Overview
 Neurons is a puzzle game that challenges players to connect input neurons to output neurons by creating a path through a neural network. The game is designed to simulate the behavior of neurons and synapses in a fun and interactive way.
 ## Gameplay
