@@ -52,10 +52,11 @@ const LAYERS = [3, 5, 7, 9, 11, 13, 15]; // Increased network size
 
 In the createBoard function, the obstacleCount variable determines the number of obstacle neurons. To add more obstacles, increase this value:
 
-<code>const obstacleCount = Math.floor(neurons.length / 5); // Initial obstacle count
+```const obstacleCount = Math.floor(neurons.length / 5); // Initial obstacle count
 ...
 // To add more obstacles, increase the obstacle count
-const obstacleCount = Math.floor(neurons.length / 3);</code>
+const obstacleCount = Math.floor(neurons.length / 3);
+```
 
 **3. Complex network topology**
 
