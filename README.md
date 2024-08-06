@@ -41,10 +41,12 @@ Here's a breakdown of the code that controls each mechanism:
 
 In the createBoard function, the LAYERS array defines the number of neurons in each layer. To increase the network size, more layers or neurons per layer can be added:
 
-<code>const LAYERS = [3, 5, 7, 7, 5, 3]; // Initial network size
+```
+const LAYERS = [3, 5, 7, 7, 5, 3]; // Initial network size
 ...
 // To increase network size, add more layers or neurons per layer
-const LAYERS = [3, 5, 7, 9, 11, 13, 15]; // Increased network size</code>
+const LAYERS = [3, 5, 7, 9, 11, 13, 15]; // Increased network size
+```
 
 **2. More obstacles**
 
@@ -55,11 +57,12 @@ In the createBoard function, the obstacleCount variable determines the number of
 // To add more obstacles, increase the obstacle count
 const obstacleCount = Math.floor(neurons.length / 3);</code>
 
-3. Complex network topology
-4. 
+**3. Complex network topology**
+
 The getNeighbors function determines which neurons are connected. To create a more complex topology, modify this function to include more or different neighboring neurons:
 
-<code>function getNeighbors(index) {
+```
+function getNeighbors(index) {
   const neighbors = [];
   ...
   // Add more neighboring neurons to create a more complex topology
@@ -79,13 +82,15 @@ The getNeighbors function determines which neurons are connected. To create a mo
   } else {
     neighbors.push(index - 1);
   }
-}</code>
+}
+```
 
 **4. Reduced accessible neurons**
 
 In the createBoard function, the neuron elements are created and appended to the game board. To reduce accessible neurons, add a condition to skip creating certain neurons:
 
-<code>for (let i = 0; i < LAYERS.length; i++) {
+```
+for (let i = 0; i < LAYERS.length; i++) {
   const layerSize = LAYERS[i];
   ...
   for (let j = 0; j < layerSize; j++) {
@@ -96,13 +101,15 @@ In the createBoard function, the neuron elements are created and appended to the
     const neuron = document.createElement('div');
     ...
   }
-}</code>
+}
+```
 
 **5. Increased distance between input and output**
 
 In the createBoard function, the inputNeuron and outputNeuron indices are randomly selected. To increase the distance, modify the random selection to favor more distant neurons:
 
-<code>inputNeuron = Math.floor(Math.random() * LAYERS[0]);
+```
+inputNeuron = Math.floor(Math.random() * LAYERS[0]);
 outputNeuron = neurons.length - 1 - Math.floor(Math.random() * LAYERS[LAYERS.length - 1]);
 ...
 // To increase distance, select input and output from different halves of the network
@@ -111,6 +118,7 @@ if (Math.random() < 0.5) {
 } else {
   inputNeuron = Math.floor(Math.random() * neurons.length / 2) + neurons.length / 2;
 }
-outputNeuron = neurons.length - 1 - inputNeuron;</code>
+outputNeuron = neurons.length - 1 - inputNeuron;
+```
 
 These code modifications can be adjusted to create increasingly challenging levels.
