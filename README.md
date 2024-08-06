@@ -2,8 +2,6 @@
 
 <img src="https://img.shields.io/badge/logo-javascript-blue?logo=javascript&logoColor=f5f5f5">
 
-https://camo.githubusercontent.com/2bb6ac78e5a9f4f688a6a066cc71b62012101802fcdb478e6e4c6b6ec75dc694/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e737667
-
 <img src="game-screen.png">
 
 ## Overview
