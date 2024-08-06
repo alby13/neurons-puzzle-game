@@ -1,4 +1,4 @@
-# Neurons: The Neural Network Puzzle Game
+# Neurons: The Neural Network Javascript Puzzle Game
 
 <img src="https://img.shields.io/badge/logo-javascript-blue?logo=javascript&logoColor=f5f5f5">
 
