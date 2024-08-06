@@ -30,7 +30,7 @@ This game is licensed under the MIT License.
 In the game Neurons, the levels can get progressively more difficult through several mechanisms:
 
 - Increased network size: As the player advances through levels, the neural network grows in size, with more neurons and layers. This requires the player to make more connections and navigate a larger network.
-- More obstacles: The number of obstacle neurons (red) increases, making it harder for the player to find a path between the input and output neurons.
+- More obstacles: The number of obstacle neurons (orange) increases, making it harder for the player to find a path between the input and output neurons.
 - Complex network topology: Later levels feature more complex network structures, with neurons arranged in a way that requires more strategic thinking to connect the input to the output.
 - Reduced accessible neurons: Some neurons may be placed in a way that makes them harder to reach or require more moves to activate, adding to the challenge.
 - Increased distance between input and output: The input and output neurons are placed farther apart, requiring the player to make more connections to reach the output.
