@@ -1,6 +1,6 @@
-<center># Neurons: The Neural Network Puzzle Game
+# Neurons: The Neural Network Puzzle Game
 
-<img src="game-screen.png"></center>
+<img src="game-screen.png">
 
 ## Overview
 Neurons is a puzzle game that challenges players to connect input neurons to output neurons by creating a path through a neural network. The game is designed to simulate the behavior of neurons and synapses in a fun and interactive way.
