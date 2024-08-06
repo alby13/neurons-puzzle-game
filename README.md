@@ -8,7 +8,7 @@ Neurons is a puzzle game that challenges players to connect input neurons to out
 The game consists of multiple levels, each with a unique neural network layout.
 Players must connect the input neuron (blue) to the output neuron (yellow) by clicking on neurons to activate them.
 Activated neurons can be connected to each other to create a path.
-Obstacles (red) must be avoided, as they cannot be used to create a path.
+Obstacles (orange) must be avoided, as they cannot be used to create a path.
 The game keeps track of the number of moves made and the number of levels completed.
 ## Features
 Multiple levels with increasing difficulty
